@@ -5,8 +5,8 @@ spring:
   mail:
     host: smtp.gmail.com
     port: 587
-    username: ${EMAIL_USERNAME}  # Bu değişkenlerin doğru olduğundan emin ol
-    password: ${EMAIL_PASSWORD}
+    username: ustundagnonik@gmail.com
+    password: ozannisa0418
     properties:
       mail:
         smtp:
@@ -35,3 +35,10 @@ springfox:
     swagger:
       v2:
         path: /swagger-ui.html
+
+logging:
+  file:
+    path: ./logs
+  level:
+    root: DEBUG
+    org.springframework: DEBUG
